@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/capitulo2/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/capitulo3/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.12 (introducao_a_programacao)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
