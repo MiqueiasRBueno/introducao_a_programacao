@@ -1,6 +1,8 @@
 # Cálculo da mensalidade de um plano de celular da operadora Tchau
+from capitulo3.exercicio_3_9 import minutos
 
 plano = input("Qual é o seu plano de celular? ")
+preço = minutos_no_plano = extra = 0
 if plano == "falopouco":
     minutos_no_plano = 100
     extra = 0.20
