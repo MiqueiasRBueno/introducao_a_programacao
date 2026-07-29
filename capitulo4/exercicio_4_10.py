@@ -10,18 +10,15 @@ print("""Escolha a operçaõ abaixo:
 4 = divisão
 """)
 operacao_escolhida = int(input("Insira o número da operação desejada: "))
+resultado = 0
 if operacao_escolhida == 1:
-    print(f"A  soma entre {numero_float_operacao_1:.2f} e {numero_float_operacao_2:.2f}"
-          f" é {numero_float_operacao_1 + numero_float_operacao_2:.2f}")
+    resultado = numero_float_operacao_1 + numero_float_operacao_2
 elif operacao_escolhida == 2:
-    print(f"A  subtração entre {numero_float_operacao_1:.2f} e {numero_float_operacao_2:.2f} "
-          f"é {numero_float_operacao_1 - numero_float_operacao_2:.2f}")
+    resultado = numero_float_operacao_1 - numero_float_operacao_2
+elif operacao_escolhida == 3:
+    resultado = numero_float_operacao_1 * numero_float_operacao_2
+elif operacao_escolhida == 4:
+    resultado= numero_float_operacao_1 / numero_float_operacao_2
 else:
-    if operacao_escolhida == 3:
-        print(f"A  multiplicação entre {numero_float_operacao_1:.2f} e {numero_float_operacao_2:.2f} "
-                  f"é {numero_float_operacao_1 * numero_float_operacao_2:.2f}")
-    elif operacao_escolhida == 4:
-        print(f"A  divisão entre {numero_float_operacao_1:.2f} e {numero_float_operacao_2:.2f} "
-                  f"é {numero_float_operacao_1 / numero_float_operacao_2:.2f}")
-    else:
-        print("Opção inválida!")
+    print("Opção inválida!")
+print(f"Resultado : {resultado:.2f}")
