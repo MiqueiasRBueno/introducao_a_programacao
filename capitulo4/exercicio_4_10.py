@@ -23,3 +23,5 @@ else:
     elif operacao_escolhida == 4:
         print(f"A  divisão entre {numero_float_operacao_1:.2f} e {numero_float_operacao_2:.2f} "
                   f"é {numero_float_operacao_1 / numero_float_operacao_2:.2f}")
+    else:
+        print("Opção inválida!")
