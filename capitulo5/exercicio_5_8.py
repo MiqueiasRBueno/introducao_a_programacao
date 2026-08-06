@@ -10,4 +10,4 @@ x = resultado = 0
 while x < num2:
     resultado += num1
     x += 1  
-print(f"Resultado = {resultado}")
+print(f"{num1} x {num2} = {resultado}")
