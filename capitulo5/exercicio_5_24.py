@@ -9,10 +9,10 @@ else:
     while dividendo <= n:
         divisor = 1
         cont_zero = 1
-        while divisor <= n:
-            divisor += 1
+        while divisor <= int(n ** 0.5):
             if dividendo % divisor == 0:
                 cont_zero += 1
+            divisor += 1
         if cont_zero > 2: print(f"{dividendo} não é primo.")
         else: print(f"{dividendo} é um número primo.")
         dividendo += 1
