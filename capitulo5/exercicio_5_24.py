@@ -43,5 +43,6 @@ while quant_primos_encontrados < quant_desejada:
         # Como encontramos um primo válido, aumentamos o nosso contador de primos encontrados
         quant_primos_encontrados += 1
 
-    # Independentemente de ter sido primo ou não, avançamos para o próximo número da sequência (ex: de 2 para 3, de 3 para 4...)
+    # Independentemente de ter sido primo ou não,
+    # avançamos para o próximo número da sequência (ex: de 2 para 3, de 3 para 4...)
     numero_atual += 1
